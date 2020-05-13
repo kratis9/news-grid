@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c727c7;
+  --primary-color: #c72727;
   --secondary-color: #f99500;
   --light-color: #f3f3f3;
   --dark-color: #333;
@@ -56,6 +56,14 @@ h6 {
   overflow: hidden;
 }
 
+/* Navigation */
+#main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 #main-nav .container {
   display: grid;
   grid-template-columns: 6fr 3fr 2fr;
@@ -79,4 +87,19 @@ h6 {
 
 #main-nav ul li a.current {
   background: var(--primary-color);
+  color: #fff;
+}
+
+#main-nav ul li a:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+#main-nav .social {
+  justify-self: center;
+}
+
+#main-nav .social i {
+  color: #777;
+  margin-right: 0.5rem;
 }
