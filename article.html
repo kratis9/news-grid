@@ -24,16 +24,21 @@
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="current">About</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="about">
+    <section id="article">
         <div class="container">
             <div class="page-container">
                 <article class="card">
-                    <h1 class="l-heading">About Our Organization</h1>
+                    <img src="./image_resources/articles/ent1.jpg" alt="">
+                    <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                    <div class="meta">
+                        <small><i class="fas fa-user"></i> Written by John Doe January 12, 2019</small>
+                        <div class="category category-ent">Entertainment</div>
+                    </div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas suscipit veniam fuga, eveniet
                         beatae nesciunt vero iste, quibusdam est tempora qui illo? At hic non saepe veritatis, minima
                         cum quasi veniam labore blanditiis iure ratione animi sunt distinctio mollitia iusto, itaque,
@@ -60,7 +65,19 @@
                         consectetur, velit delectus quia sapiente quo odio! Aliquid vero maxime eligendi consequuntur
                         odio. Pariatur delectus, quasi illum rem tempore possimus aspernatur ratione a porro?</p>
                 </article>
-                <aside class="card bg-primary">
+
+                <aside id="categories" class="card">
+                    <h2>Categories</h2>
+                    <ul class="list">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Sports</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Entertainment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Technology</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Fashion</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Shopping</a></li>
+                    </ul>
+                </aside>
+
+                <aside class="card bg-secondary">
                     <h2>Join Our Club</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, omnis?</p>
                     <a href="#" class="btn btn-block btn-dark">Join Now</a>
