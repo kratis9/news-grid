@@ -52,6 +52,10 @@
     text-align: center;
 }
 
-.page-container > *:first-child {
-    grid-row:1;
+.page-container>*:first-child {
+    grid-row: 1;
+}
+
+.l-heading {
+    font-size: 2rem;
 }
